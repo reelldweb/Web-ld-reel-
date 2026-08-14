@@ -1,3 +1,1 @@
-"zone name","placement name","placement id","code (smart link)"
-smart-link-3419432,Smartlink_1,30659223,https://expulsiondatabaseinnocent.com/qm67rur29?key=b3aecbce0b46858b7dce733a3d77624f
-smart-link-3419432,Smartlink_2,30688995,https://expulsiondatabaseinnocent.com/w2at4at7q7?key=3d3e7f4f42769e4295aec8f145169bfc
+ee3744a12823e7adcb7bec1390b3ac278f18b663
