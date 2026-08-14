@@ -1,99 +1,162 @@
 <!doctype html>
 <html lang="es">
-<head><script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KWK6V7H7JC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KWK6V7H7JC');
-</script>
+<head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>WEB LD REEL — Reels y Entretenimiento</title>
-<meta name="description" content="WEB LD REEL: reels, videos, música, tendencias y entretenimiento.">
-
-<!-- VERIFICACIÓN GOOGLE ADSENSE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#05050a">
+<meta name="description" content="WEB LD REEL — reels, videos, música, tendencias y entretenimiento.">
 <meta name="google-adsense-account" content="ca-pub-9030618422143159">
+<title>WEB LD REEL — Reels y Entretenimiento</title>
+
+<!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9030618422143159" crossorigin="anonymous"></script>
 
 <style>
-*{box-sizing:border-box}body{margin:0;background:#07070d;color:#fff;font-family:Arial,sans-serif}a{color:inherit;text-decoration:none}
-header{position:sticky;top:0;z-index:5;background:#090910ee;border-bottom:1px solid #292938}.nav{width:92%;max-width:1150px;margin:auto;min-height:68px;display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:10px;font-weight:900}.logo{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#13cfff,#ff2ca8)}
-.links{display:flex;gap:18px;color:#ccc;font-size:14px}.btn{display:inline-block;padding:12px 17px;border-radius:12px;background:linear-gradient(90deg,#7655ff,#ff2ca8);font-weight:800}
-.container{width:92%;max-width:1150px;margin:auto}.hero{padding:65px 0 45px;background:radial-gradient(circle at 15% 20%,#5353ff33,transparent 30%),radial-gradient(circle at 85% 20%,#ff2ca82b,transparent 30%)}
-.hero-grid{display:grid;grid-template-columns:1fr .8fr;gap:35px;align-items:center}.eyebrow{padding:8px 12px;border:1px solid #292938;border-radius:99px;color:#bbb;font-size:10px;letter-spacing:2px}
-h1{font-size:clamp(48px,8vw,88px);line-height:.9;margin:20px 0;letter-spacing:-5px}h1 span{display:block;background:linear-gradient(90deg,#25dfff,#fff,#ff2ca8);-webkit-background-clip:text;color:transparent}
-.hero p{color:#aaaabd;line-height:1.7;font-size:17px}.art{height:390px;border:1px solid #292938;border-radius:30px;display:grid;place-items:center;background:radial-gradient(circle,#20205c,#090910 60%)}
-.ld{font-size:105px;font-weight:1000;letter-spacing:-10px;background:linear-gradient(135deg,#35e9ff,#ff2ca8);-webkit-background-clip:text;color:transparent}.reel{font-size:52px;font-weight:900;font-style:italic;text-align:center}.tag{text-align:center;color:#999;letter-spacing:3px;font-size:10px;margin-top:10px}
-section{padding:40px 0}.heading{margin-bottom:22px}.heading h2{font-size:32px;margin:0 0 7px}.heading p{color:#aaaabd;margin:0}
-.adbox{text-align:center;margin:10px 0 35px}.adlabel{font-size:9px;letter-spacing:2px;color:#777;margin-bottom:9px}
-.reels{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.card{background:#0e0e16;border:1px solid #252534;border-radius:20px;overflow:hidden}
-video{width:100%;aspect-ratio:9/16;display:block;background:#000;object-fit:cover}.info{padding:14px}.info h3{margin:0 0 6px;font-size:15px}.info p{margin:0;color:#999;font-size:11px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.cat{padding:20px;border:1px solid #252534;border-radius:18px;background:#0e0e16}.cat .icon{font-size:30px}.cat h3{margin:12px 0 7px}.cat p{color:#999;font-size:12px}
-.socials{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.social{padding:16px;text-align:center;border:1px solid #252534;border-radius:15px;background:#0e0e16;font-weight:800}.social small{display:block;color:#999;margin-top:5px;font-weight:normal}
-footer{padding:35px 0 55px;border-top:1px solid #242432;color:#888;font-size:12px}
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.reels{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.socials{grid-template-columns:repeat(2,1fr)}.links{display:none}}
-@media(max-width:560px){.reels,.grid{grid-template-columns:1fr}.art{height:300px}}
+:root{--bg:#05050a;--text:#fff;--muted:#a9a9bb;--line:rgba(255,255,255,.1);--pink:#ff2ca8;--purple:#8b5cff;--blue:#13a9ff;--cyan:#35e9ff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;color:var(--text);background:radial-gradient(circle at 15% 5%,rgba(139,92,255,.2),transparent 25%),radial-gradient(circle at 85% 15%,rgba(255,44,168,.16),transparent 25%),linear-gradient(180deg,#07070d,#05050a 60%,#080810);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.container{width:92%;max-width:1180px;margin:auto}
+header{position:sticky;top:0;z-index:100;background:rgba(6,6,11,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{display:flex;align-items:center;gap:10px;font-weight:900}.badge{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),var(--pink))}.links{display:flex;gap:18px;color:#d7d7e4;font-size:13px}.links a:hover{color:#fff}.cta-nav{padding:11px 15px;border-radius:999px;background:linear-gradient(90deg,var(--purple),var(--pink));font-weight:900;font-size:13px}
+.hero{padding:55px 0 35px}.hero-grid{display:grid;grid-template-columns:1fr .9fr;gap:35px;align-items:center}.eyebrow{display:inline-block;padding:8px 12px;border:1px solid var(--line);border-radius:99px;background:rgba(255,255,255,.04);font-size:10px;letter-spacing:2px;text-transform:uppercase}h1{margin:20px 0;font-size:clamp(48px,8vw,88px);line-height:.9;letter-spacing:-5px}h1 span{display:block;background:linear-gradient(90deg,var(--blue),#fff,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{color:var(--muted);font-size:17px;line-height:1.65}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-block;padding:13px 18px;border-radius:13px;border:1px solid var(--line);background:#141420;font-weight:900}.primary{border:0;background:linear-gradient(90deg,var(--purple),var(--pink))}
+.art{min-height:390px;position:relative;border:1px solid var(--line);border-radius:30px;overflow:hidden;background:radial-gradient(circle at 50% 45%,rgba(255,44,168,.25),transparent 25%),radial-gradient(circle at 50% 50%,rgba(18,168,255,.16),transparent 45%),#090912}.circle{position:absolute;border:2px solid rgba(255,255,255,.09);border-radius:50%}.c1{inset:10%}.c2{inset:22%;border-color:rgba(255,44,168,.28)}.logo{position:absolute;inset:0;display:grid;place-items:center;text-align:center}.ld{font-size:90px;line-height:.85;font-weight:900;letter-spacing:-9px;background:linear-gradient(135deg,var(--cyan),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.reel{font-size:50px;font-weight:900;font-style:italic}.tag{margin-top:10px;color:#aaaabd;font-size:10px;letter-spacing:3px}
+section{padding:42px 0}.head{margin-bottom:22px}.head h2{margin:0 0 7px;font-size:32px}.head p{margin:0;color:var(--muted)}
+.ad{text-align:center;margin:5px 0 30px}.ad-label{margin-bottom:8px;color:#777789;font-size:9px;letter-spacing:2px;text-transform:uppercase}.ad-box{min-height:250px;display:grid;place-items:center;border:1px dashed rgba(255,255,255,.12);border-radius:15px;background:rgba(255,255,255,.025);color:#777;font-size:12px;padding:15px;overflow:hidden}
+.sponsor{margin:5px 0 30px}.sponsor-label{margin-bottom:8px;color:#777789;font-size:9px;letter-spacing:2px;text-transform:uppercase;text-align:center}.sponsor-banner{display:block;border-radius:15px;overflow:hidden;border:1px solid rgba(255,44,168,.35);position:relative;background:#0e0e17}.sponsor-banner img{width:100%;max-height:220px;object-fit:cover;display:block}.sponsor-banner .sp-tag{position:absolute;top:8px;left:8px;padding:4px 9px;border-radius:99px;background:rgba(5,5,10,.75);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#fff}.sponsor-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:130px;text-align:center;padding:20px;border-radius:15px;border:1px dashed rgba(255,255,255,.15);background:rgba(255,255,255,.02)}.sponsor-fallback p{margin:0;color:var(--muted);font-size:12px}.sponsor-fallback a{padding:9px 16px;border-radius:99px;background:linear-gradient(90deg,var(--purple),var(--pink));font-weight:900;font-size:12px}
+.reels{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}.card{overflow:hidden;border:1px solid var(--line);border-radius:20px;background:#0b0b12}.video-wrap{background:#000;aspect-ratio:9/16;overflow:hidden}.card video{display:block;width:100%;height:100%;object-fit:cover;background:#000}.info{padding:13px}.info h3{margin:0 0 5px;font-size:15px}.info p{margin:0;color:var(--muted);font-size:11px}.share{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:10px}.share-link{font-size:11px}.share-link:hover{color:var(--pink)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.cat{padding:20px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.04);transition:.2s}.cat:hover{transform:translateY(-3px);border-color:rgba(255,44,168,.45)}.cat .icon{font-size:30px}.cat h3{margin:12px 0 7px}.cat p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}.socials{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.social{padding:16px 8px;border:1px solid var(--line);border-radius:15px;background:#0e0e17;text-align:center;font-weight:900;font-size:13px;transition:.2s}.social:hover{border-color:var(--pink);transform:translateY(-2px)}.social small{display:block;color:var(--muted);margin-top:5px;font-weight:normal}.bottom{text-align:center;padding:30px;border:1px solid var(--line);border-radius:25px;background:linear-gradient(120deg,rgba(139,92,255,.16),rgba(255,44,168,.1))}footer{padding:35px 0 55px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.reels{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.socials{grid-template-columns:repeat(3,1fr)}.links{display:none}}
+@media(max-width:560px){.hero{padding-top:35px}.art{min-height:310px}.ld{font-size:72px}.reel{font-size:42px}.reels,.grid{grid-template-columns:1fr}.card{max-width:390px;width:100%;margin:auto}.socials{grid-template-columns:repeat(2,1fr)}.cta-nav{padding:9px 12px;font-size:12px}}
 </style>
 </head>
-</script><amp-ad width="100vw" height="320"
-     type="adsense"
-     data-ad-client="ca-pub-9030618422143159"
-     data-ad-slot="7016316518"
-     data-auto-format="mcrspv"
-     data-full-width="">
-  <div overflow=""></div>
-</amp-ad>
-<header><div class="nav">
-<a class="brand" href="#inicio"><span class="logo">LD</span><span>WEB LD REEL</span></a>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#inicio"><span class="badge">LD</span><span>WEB LD REEL</span></a>
 <nav class="links"><a href="#reels">Reels</a><a href="#categorias">Categorías</a><a href="#redes">Redes</a></nav>
-<a class="btn" href="#reels">Ver Reels</a>
+<a class="cta-nav" href="#reels">Ver Reels</a>
 </div></header>
 
 <main>
 <section id="inicio" class="hero"><div class="container hero-grid">
-<div><span class="eyebrow">REELS • ENTRETENIMIENTO • TENDENCIAS</span><h1>WEB<span>LD REEL</span></h1>
-<p>Bienvenido a WEB LD REEL, tu espacio de reels, videos, música, tendencias y entretenimiento.</p><a class="btn" href="#reels">▶ Explorar Reels</a></div>
-<div class="art"><div><div class="ld">LD</div><div class="reel">reel</div><div class="tag">REELS Y ENTRETENIMIENTO</div></div></div>
+<div><span class="eyebrow">Reels • Entretenimiento • Tendencias</span><h1>WEB<span>LD REEL</span></h1><p>Bienvenido a WEB LD REEL, tu espacio de reels, videos, música, tendencias y entretenimiento.</p><div class="buttons"><a class="btn primary" href="#reels">▶ Explorar Reels</a><a class="btn" href="#redes">Mis redes</a></div></div>
+<div class="art"><div class="circle c1"></div><div class="circle c2"></div><div class="logo"><div><div class="ld">LD</div><div class="reel">reel</div><div class="tag">REELS Y ENTRETENIMIENTO</div></div></div></div>
 </div></section>
 
-<section><div class="container"><div class="adbox"><div class="adlabel">PUBLICIDAD</div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9030618422143159" data-ad-slot="2604328599" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+<section><div class="container"><div class="sponsor"><div class="sponsor-label">Patrocinado</div><div id="sponsor-slot-hero"></div></div></div></section>
+
+<section><div class="container"><div class="ad"><div class="ad-label">Publicidad</div><div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9030618422143159"
+     data-ad-slot="0000000001"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></div></div></section>
+
+<section id="reels"><div class="container"><div class="head"><h2>🎬 Mis Reels</h2><p>Disfruta tus videos directamente desde WEB LD REEL.</p></div><div class="reels">
+
+<article class="card"><div class="video-wrap"><video controls playsinline preload="metadata"><source src="2108.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></div><div class="info"><h3>Mi Reel #1</h3><p>2108.mp4 • WEB LD REEL</p><div class="share"><a class="share-link" href="https://www.facebook.com/share/18Hbd8xXYS/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div></article>
+
+<article class="card"><div class="video-wrap"><video controls playsinline preload="metadata"><source src="2109.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></div><div class="info"><h3>Mi Reel #2</h3><p>2109.mp4 • WEB LD REEL</p><div class="share"><a class="share-link" href="https://www.facebook.com/share/v/1D5QrnEQvy/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div></article>
+
+<article class="card"><div class="video-wrap"><video controls playsinline preload="metadata"><source src="2107.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></div><div class="info"><h3>Mi Reel #3</h3><p>2107.mp4 • WEB LD REEL</p><div class="share"><a class="share-link" href="https://www.facebook.com/share/r/1PMdV5bbky/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div></article>
+
+<article class="card"><div class="video-wrap"><video controls playsinline preload="metadata"><source src="1741.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></div><div class="info"><h3>Mi Reel #4</h3><p>1741.mp4 • WEB LD REEL</p><div class="share"><a class="share-link" href="https://www.facebook.com/share/v/1DzXKm1LE7/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div></article>
+
+<article class="card"><div class="video-wrap"><video controls playsinline preload="metadata"><source src="1740.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></div><div class="info"><h3>Mi Reel #5</h3><p>1740.mp4 • WEB LD REEL</p><div class="share"><a class="share-link" href="https://www.facebook.com/share/v/1EkR1BAsRm/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div></article>
+
 </div></div></section>
 
-<section id="reels"><div class="container"><div class="heading"><h2>🎬 Mis Reels</h2><p>Disfruta tus videos directamente desde WEB LD REEL.</p></div>
-<div class="reels">
-<article class="card"><video controls playsinline preload="metadata"><source src="2108.mp4" type="video/mp4"></video><div class="info"><h3>Mi Reel #1</h3><p>2108.mp4</p></div></article>
-<article class="card"><video controls playsinline preload="metadata"><source src="2109.mp4" type="video/mp4"></video><div class="info"><h3>Mi Reel #2</h3><p>2109.mp4</p></div></article>
-<article class="card"><video controls playsinline preload="metadata"><source src="2107.mp4" type="video/mp4"></video><div class="info"><h3>Mi Reel #3</h3><p>2107.mp4</p></div></article>
-<article class="card"><video controls playsinline preload="metadata"><source src="1741.mp4" type="video/mp4"></video><div class="info"><h3>Mi Reel #4</h3><p>1741.mp4</p></div></article>
-<article class="card"><video controls playsinline preload="metadata"><source src="1740.mp4" type="video/mp4"></video><div class="info"><h3>Mi Reel #5</h3><p>1740.mp4</p></div></article>
-</div></div></section>
+<section><div class="container"><div class="ad"><div class="ad-label">Publicidad</div><div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9030618422143159"
+     data-ad-slot="0000000002"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></div></div></section>
 
-<section><div class="container"><div class="adbox"><div class="adlabel">PUBLICIDAD</div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9030618422143159" data-ad-slot="2604328599" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div></div></section>
-
-<section id="categorias"><div class="container"><div class="heading"><h2>🔥 Explora WEB LD REEL</h2><p>Contenido para descubrir y compartir.</p></div>
-<div class="grid"><a class="cat" href="#reels"><div class="icon">🎬</div><h3>Reels</h3><p>Videos cortos y contenido vertical.</p></a>
+<section id="categorias"><div class="container"><div class="head"><h2>🔥 Explora WEB LD REEL</h2><p>Contenido para descubrir y compartir.</p></div><div class="grid">
+<a class="cat" href="#reels"><div class="icon">🎬</div><h3>Reels</h3><p>Videos cortos y contenido vertical.</p></a>
 <a class="cat" href="#reels"><div class="icon">🎵</div><h3>Música</h3><p>Contenido musical y entretenimiento.</p></a>
 <a class="cat" href="#reels"><div class="icon">🔥</div><h3>Tendencias</h3><p>Contenido que está llamando la atención.</p></a>
-<a class="cat" href="#redes"><div class="icon">⭐</div><h3>Comunidad</h3><p>Conecta con WEB LD REEL.</p></a></div></div></section>
-
-<section id="redes"><div class="container"><div class="heading"><h2>📱 Redes sociales</h2><p>Encuentra WEB LD REEL en redes.</p></div>
-<div class="socials">
-<a class="social" href="https://www.facebook.com/share/18Hbd8xXYS/" target="_blank" rel="noopener">📘 Facebook<small>Compartir</small></a>
-<a class="social" href="https://www.facebook.com/share/v/1D5QrnEQvy/" target="_blank" rel="noopener">🎥 Facebook<small>Video</small></a>
-<a class="social" href="https://www.facebook.com/share/r/1PMdV5bbky/" target="_blank" rel="noopener">🔄 Facebook<small>Reel</small></a>
-<a class="social" href="https://www.facebook.com/share/r/1E5VX8Qg37/" target="_blank" rel="noopener">🔄 Facebook<small>Reel</small></a>
+<a class="cat" href="#redes"><div class="icon">⭐</div><h3>Comunidad</h3><p>Conecta con WEB LD REEL en tus redes.</p></a>
 </div></div></section>
+
+<section><div class="container"><div class="ad"><div class="ad-label">Publicidad</div><div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9030618422143159"
+     data-ad-slot="0000000003"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></div></div></section>
+
+<section id="redes"><div class="container"><div class="head"><h2>📱 Mis redes sociales</h2><p>Encuentra y comparte WEB LD REEL.</p></div><div class="socials">
+<a class="social" href="https://www.facebook.com/share/18Hbd8xXYS/" target="_blank" rel="noopener noreferrer">📘 Facebook<small>Compartir</small></a>
+<a class="social" href="https://www.facebook.com/share/v/1D5QrnEQvy/" target="_blank" rel="noopener noreferrer">🎥 Facebook<small>Video</small></a>
+<a class="social" href="https://www.facebook.com/share/r/1PMdV5bbky/" target="_blank" rel="noopener noreferrer">🔄 Facebook<small>Reel</small></a>
+<a class="social" href="https://www.facebook.com/share/v/1DzXKm1LE7/" target="_blank" rel="noopener noreferrer">🎞️ Facebook<small>Video</small></a>
+<a class="social" href="https://www.facebook.com/share/v/1EkR1BAsRm/" target="_blank" rel="noopener noreferrer">🎞️ Facebook<small>Video</small></a>
+<a class="social" href="https://www.facebook.com/share/r/1E5VX8Qg37/" target="_blank" rel="noopener noreferrer">🔄 Facebook<small>Reel</small></a>
+<a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">📸 Instagram<small>Perfil</small></a>
+<a class="social" href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">🎵 TikTok<small>Perfil</small></a>
+<a class="social" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">▶️ YouTube<small>Canal</small></a>
+<a class="social" href="https://wa.me/" target="_blank" rel="noopener noreferrer">💬 WhatsApp<small>Contacto</small></a>
+</div></div></section>
+
+<section><div class="container"><div class="sponsor"><div class="sponsor-label">Patrocinado</div><div id="sponsor-slot-footer"></div></div></div></section>
+
+<section><div class="container"><div class="bottom"><h2>WEB LD REEL</h2><p>Disfruta • Comparte • Conecta</p><a class="btn primary" href="#reels">▶ Ver mis Reels</a></div></div></section>
 </main>
 
 <footer><div class="container"><strong style="color:#fff">WEB LD REEL</strong><br>Reels • Entretenimiento • Tendencias<br><br>© 2026 WEB LD REEL. Todos los derechos reservados.</div></footer>
+<script>
+/* ===== Banners patrocinados (anuncios pagados directos, separados de AdSense) =====
+   Para vender un espacio: agrega un objeto al slot correspondiente con los datos
+   del anunciante. Si un slot no tiene patrocinador, se muestra un aviso de
+   "espacio disponible" con tu contacto para que las marcas te escriban.
+   Cambia WHATSAPP_NUMBER por tu número con código de país, sin signos (ej: 573001234567). */
+const WHATSAPP_NUMBER = "";
+
+const SPONSORS = {
+  hero: null,
+  /* Ejemplo de cómo se ve un patrocinador activo:
+  hero: {
+    image: "sponsors/marca1.jpg",
+    url: "https://marca-anunciante.com",
+    name: "Marca Anunciante",
+    alt: "Promoción de Marca Anunciante"
+  },
+  */
+  footer: null
+};
+
+function renderSponsorSlot(slotId, sponsor) {
+  const el = document.getElementById(slotId);
+  if (!el) return;
+  if (sponsor) {
+    el.innerHTML = `<a class="sponsor-banner" href="${sponsor.url}" target="_blank" rel="noopener noreferrer sponsored">
+      <span class="sp-tag">Anuncio</span>
+      <img src="${sponsor.image}" alt="${sponsor.alt || sponsor.name}" loading="lazy">
+    </a>`;
+  } else {
+    const contactHref = WHATSAPP_NUMBER
+      ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hola, quiero anunciarme en WEB LD REEL')}`
+      : "#redes";
+    el.innerHTML = `<div class="sponsor-fallback">
+      <p>Este espacio publicitario está disponible</p>
+      <a href="${contactHref}" target="_blank" rel="noopener noreferrer">Anunciarme aquí</a>
+    </div>`;
+  }
+}
+
+renderSponsorSlot("sponsor-slot-hero", SPONSORS.hero);
+renderSponsorSlot("sponsor-slot-footer", SPONSORS.footer);
+</script>
 </body>
 </html>
